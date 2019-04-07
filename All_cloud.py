@@ -77,6 +77,10 @@ if(k==1):
 	
 	oldname = FILE_NAME
 	os.rename(FILE_NAME,new_name)
+	# Delete the fragment
+	for i in range(0,6):
+		fil = "/home/rawal/Desktop/mini_pro/File/" + new_name + '.'+str(i)
+		os.remove(fil)
 
 	FILE_NAME = new_name
 	
