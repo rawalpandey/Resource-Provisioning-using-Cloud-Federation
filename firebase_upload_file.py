@@ -21,3 +21,19 @@ blob.upload_from_string(
         filepath,
         content_type='file/text'
     )
+
+
+# Download file form firebase
+cred = credentials.Certificate("cred.json")
+
+# Initialize the app with a service account, granting admin privileges
+app = firebase_admin.initialize_app(cred, {
+    'storageBucket': '***************************',
+}, name='storage')
+
+
+bucket = storage.bucket(app=app)
+blob = bucket.blob('b.text')
+filename = 'c.txt'
+blob.download_to_filename(filename, client=None, start=None, end=None)
+
