@@ -1,4 +1,5 @@
-oncept of Development/Abstract: Cloud Computing is the state of the art
+### Concept of Development/Abstract: 
+Cloud Computing is the state of the art
 computation paradigm enabling providers to offer computing resources to
 customers in a pay-per-use fashion.
 To avail these services, traditionally users need to choose a vendor which
@@ -16,13 +17,11 @@ So, the idea is to create a platform where user will ask just for the amount
 of resource they need and need not be the concerned about the vendor. The
 platform will decide and divide the data equally across different vendors or
 across different servers within a vendor.
-This will reduce, if not prevent the loss of data in case of attack on vendor.Literature Review:
-G. Zangara, D. Terrana, P. P. Corso, M. Ughetti and G. Montalbano, "A Cloud
-Federation Architecture," 2015 10th International Conference on P2P,
-Parallel, Grid, Cloud and Internet Computing (3PGCIC), Krakow, 2015, pp.
-498-503.
-doi: 10.1109/3PGCIC.2015.183
-Abstract: Nowadays public Cloud providers offer similar services within few
+This will reduce, if not prevent the loss of data in case of attack on vendor.
+
+
+### Introduction: 
+Nowadays public Cloud providers offer similar services within few
 service models, mainly IaaS and PaaS. Cloud providers give to the user the
 feeling to dispose of infinite resources, thus having to predict the user
 requirements in order to provide services with minimal costs, maintaining
@@ -37,18 +36,15 @@ available services, the capability of price comparison and the removal of
 vendor lock-in. In this paper we describe a platform that enables the
 federation of several heterogeneous Cloud Providers to allow the customers
 choosing and activating Cloud services from a central platform, bringing
-more attractive price policy to customers.Market Survey:
-Servers and digital storage devices take up space. Some companies rent
-physical space to store servers and databases because they don't have it
-available on site. Cloud computing gives these companies the option of
-storing data on someone else's hardware, removing the need for physical
-space on the front end.
-Corporations might save money on IT support
-Disaster recovery
-More Security compared to the current existing system
-Target Specification:
-• Corporations that rely on computers have to make sure they have the
-right software in place to achieve goals. Cloud computing systems give
-these organizations company-wide access to computer applications
-• Companies that run solely on their database, companies like cricbuzz,
-whose whole business revolves around database and data.
+more attractive price policy to customers.
+
+
+### Refrence:
+G. Zangara, D. Terrana, P. P. Corso, M. Ughetti and G. Montalbano, "A Cloud
+Federation Architecture," 2015 10th International Conference on P2P,
+Parallel, Grid, Cloud and Internet Computing (3PGCIC), Krakow, 2015, pp.
+498-503.
+doi: 10.1109/3PGCIC.2015.183
+
+![image](https://user-images.githubusercontent.com/40235251/140650390-32fef420-bbe7-4d48-95a9-5839598c30d0.png)
+
