@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/rawalpandey/Resource-Provisioning-using-Cloud-Federation/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rawalpandey/Resource-Provisioning-using-Cloud-Federation/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+oncept of Development/Abstract: Cloud Computing is the state of the art
+computation paradigm enabling providers to offer computing resources to
+customers in a pay-per-use fashion.
+To avail these services, traditionally users need to choose a vendor which
+provide cloud services and register themselves with that vendor for some
+specified charges. The vendors takes data from the user with the assurance
+of keeping their data secure at their servers.
+The only problem with this system is increased number of attacks at such
+data centers and risk of losing all the data at once from a single place.
+Today,when most companies rely hugely on their database for their business
+and some companies that run entirely on their rich database, loss as such
+can prove to be disastrous and fatal for such companies.
+One of the solution to this problem is to avoid the storage of complete data
+a single place.
+So, the idea is to create a platform where user will ask just for the amount
+of resource they need and need not be the concerned about the vendor. The
+platform will decide and divide the data equally across different vendors or
+across different servers within a vendor.
+This will reduce, if not prevent the loss of data in case of attack on vendor.Literature Review:
+G. Zangara, D. Terrana, P. P. Corso, M. Ughetti and G. Montalbano, "A Cloud
+Federation Architecture," 2015 10th International Conference on P2P,
+Parallel, Grid, Cloud and Internet Computing (3PGCIC), Krakow, 2015, pp.
+498-503.
+doi: 10.1109/3PGCIC.2015.183
+Abstract: Nowadays public Cloud providers offer similar services within few
+service models, mainly IaaS and PaaS. Cloud providers give to the user the
+feeling to dispose of infinite resources, thus having to predict the user
+requirements in order to provide services with minimal costs, maintaining
+at the same time high levels of SLAs. In order to achieve this goal, Cloud
+providers can cooperate together to bring new business opportunities, such
+as expanding available resources, achieving cost effective asset
+optimization and adopting power saving policies. Cloud Federation allows
+different Cloud providers the opportunity to work collaboratively to offer
+best services to customers and contemporary to improve their productivity.
+Customers can advantage from Cloud Federation for a larger offer of
+available services, the capability of price comparison and the removal of
+vendor lock-in. In this paper we describe a platform that enables the
+federation of several heterogeneous Cloud Providers to allow the customers
+choosing and activating Cloud services from a central platform, bringing
+more attractive price policy to customers.Market Survey:
+Servers and digital storage devices take up space. Some companies rent
+physical space to store servers and databases because they don't have it
+available on site. Cloud computing gives these companies the option of
+storing data on someone else's hardware, removing the need for physical
+space on the front end.
+Corporations might save money on IT support
+Disaster recovery
+More Security compared to the current existing system
+Target Specification:
+• Corporations that rely on computers have to make sure they have the
+right software in place to achieve goals. Cloud computing systems give
+these organizations company-wide access to computer applications
+• Companies that run solely on their database, companies like cricbuzz,
+whose whole business revolves around database and data.
